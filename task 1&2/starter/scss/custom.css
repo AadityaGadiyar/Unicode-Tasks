@@ -1,0 +1,19 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background: pink; }
+
+.navbar {
+  font-weight: 100; }
+  .navbar .navbar-brand h3 {
+    font-weight: 100; }
+  .navbar .nav-item {
+    font-size: 1.4rem; }
+  .navbar .nav-link:hover {
+    transition: border 0.2s;
+    border-bottom: 1px solid black; }
+
+@media (max-width: 768px) {
+  .nav-link:hover {
+    border-bottom: none; } }
+
+/*# sourceMappingURL=custom.css.map */
